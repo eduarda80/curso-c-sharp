@@ -11,11 +11,15 @@ using CursoCSharp.Excecoes;
 using CursoCSharp.Api;
 using CursoCSharp.TopicosAvancados;
 
-namespace CursoCSharp {
-    class Program {
-        static void Main(string[] args) {
-            var central = new CentralDeExercicios(new Dictionary<string, Action>() {
-                // Fundamentos
+namespace CursoCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var central = new CentralDeExercicios(new Dictionary<string, Action>()
+            {
+                #region Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentários - Fundamentos", Comentarios.Executar},
                 {"Váriaveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
@@ -31,8 +35,9 @@ namespace CursoCSharp {
                 {"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores Unários - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador Ternário - Fundamentos", OperadorTernario.Executar},
-                
-                // Estruturas de Controle
+                #endregion
+
+                #region Estruturas de Controle
                 {"Estrutura If - Estruturas de Controle", EstruturaIf.Executar},
                 {"Estrutura If/Else - Estruturas de Controle", EstruturaIfElse.Executar},
                 {"Estrutura If/Else/If - Estruturas de Controle", EstruturaIfElseIf.Executar},
@@ -43,8 +48,9 @@ namespace CursoCSharp {
                 {"Estrutura Foreach - Estruturas de Controle", EstruturaForEach.Executar},
                 {"Usando Break - Estruturas de Controle", UsandoBreak.Executar},
                 {"Usando Continue - Estruturas de Controle", UsandoContinue.Executar},
+                #endregion
 
-                // Classes e Métodos
+                #region Classes e Métodos
                 { "Membros - Classes e Métodos", Membros.Executar},
                 { "Construtores - Classes e Métodos", Construtores.Executar},
                 { "Métodos Com Retorno - Classes e Métodos", MetodosComRetorno.Executar},
@@ -62,8 +68,9 @@ namespace CursoCSharp {
                 { "Valor Vs Referência - Classes e Métodos", ValorVsReferencia.Executar},
                 { "Parâmetros Por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
                 { "Parâmetro com Valor Padrão - Classes e Métodos", ParametroPadrao.Executar},
+                #endregion
 
-                // Coleções
+                #region Coleções
                 { "Array - Coleções", Colecoes.Array.Executar},
                 { "List - Coleções", ColecoesList.Executar},
                 { "Array List - Coleções", ColecoesArrayList.Executar},
@@ -72,8 +79,9 @@ namespace CursoCSharp {
                 { "Igualdade - Coleções", Igualdade.Executar},
                 { "Stack - Coleções", ColecoesStack.Executar},
                 { "Dictionary - Coleções", ColecoesDictionary.Executar},
+                #endregion
 
-                // OO
+                #region OO
                 { "Herança - OO", Heranca.Executar},
                 { "Construtor This - OO", ConstrutorThis.Executar},
                 { "Encapsulamento - OO", OO.Encapsulamento.Executar},
@@ -81,20 +89,24 @@ namespace CursoCSharp {
                 { "Abstract - OO", Abstract.Executar},
                 { "Interface - OO", Interface.Executar},
                 { "Sealed - OO", Sealed.Executar},
+                #endregion
 
-                // Métodos & Funções
+                #region Métodos & Funções
                 { "Exemplo Lambda - Métodos & Funções", ExemploLambda.Executar},
                 { "Lambdas Como Delegates - Métodos & Funções", LambdasDelegate.Executar},
                 { "Usando Delegates - Métodos & Funções", UsandoDelegates.Executar},
                 { "Delegates Como Função Anonima - Métodos & Funções", DelegateFunAnonima.Executar},
                 { "Delegates Como Parâmetros - Métodos & Funções", DelegatesComoParametros.Executar},
                 { "Métodos de Extensão - Métodos & Funções", MetodosDeExtensao.Executar},
+                { "Recursividade - Métodos & Funções", Recursividade.Executar},
+                #endregion
 
-                // Exceções
+                #region Exceções
                 { "Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
                 { "Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+                #endregion
 
-                // Api
+                #region Api
                 { "Primeiro Arquivo - Usando API", PrimeiroArquivo.Executar},
                 { "Lendo Arquivos - Usando API", LendoArquivos.Executar},
                 { "Exemplo FileInfo - Usando API", ExemploFileInfo.Executar},
@@ -103,13 +115,15 @@ namespace CursoCSharp {
                 { "Exemplo Path - Usando API", ExemploPath.Executar},
                 { "Exemplo DateTime - Usando API", ExemploDateTime.Executar},
                 { "Exemplo Timespan - Usando API", ExemploTimeSpan.Executar},
+                #endregion
 
-                // Tópicos Avançados
+                #region Tópicos Avançados
                 { "LINQ #01 - Tópicos Avançados", LINQ1.Executar},
                 { "LINQ #02 - Tópicos Avançados", LINQ2.Executar},
                 { "Nullables - Tópicos Avançados", Nullables.Executar},
                 { "Dynamics - Tópicos Avançados", Dynamics.Executar},
                 { "Genéricos - Tópicos Avançados", Genericos.Executar},
+                #endregion
             });
 
             central.SelecionarEExecutar();
