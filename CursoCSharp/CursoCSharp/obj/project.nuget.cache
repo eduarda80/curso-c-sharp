@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wtfk1Nvyfq4LvSZynRDIDxx8IoA9iP1fU7x3kyzFYMGlVRv97b5w/yiY1is7guVUEqEaQm8GWLIrb2I2MttKpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eduarda\\Source\\Repos\\curso-c-sharp\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eduarda\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eduarda\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eduarda\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eduarda\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eduarda\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eduarda\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

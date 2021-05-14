@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "xN7TO/a+1RPVQTxkNpRT2/TEEj4BbI88rY7ZjnJAHAVwZq8ph7jg6F7corr82BtjMZU7t80wCtP2Rt30Mes/5w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eduarda\\Source\\Repos\\curso-c-sharp\\CursoCSharp\\Encapsulamento\\Encapsulamento.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eduarda\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eduarda\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eduarda\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eduarda\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eduarda\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eduarda\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

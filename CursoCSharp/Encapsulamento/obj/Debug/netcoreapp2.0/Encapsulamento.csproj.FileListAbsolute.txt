@@ -7,3 +7,12 @@ C:\Users\Cod3r\source\repos\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp2.0\E
 C:\Users\Cod3r\source\repos\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp2.0\Encapsulamento.AssemblyInfo.cs
 C:\Users\Cod3r\source\repos\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp2.0\Encapsulamento.dll
 C:\Users\Cod3r\source\repos\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp2.0\Encapsulamento.pdb
+C:\Users\Eduarda\Source\Repos\curso-c-sharp\CursoCSharp\Encapsulamento\bin\Debug\netcoreapp2.0\Encapsulamento.deps.json
+C:\Users\Eduarda\Source\Repos\curso-c-sharp\CursoCSharp\Encapsulamento\bin\Debug\netcoreapp2.0\Encapsulamento.dll
+C:\Users\Eduarda\Source\Repos\curso-c-sharp\CursoCSharp\Encapsulamento\bin\Debug\netcoreapp2.0\Encapsulamento.pdb
+C:\Users\Eduarda\Source\Repos\curso-c-sharp\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp2.0\Encapsulamento.csprojAssemblyReference.cache
+C:\Users\Eduarda\Source\Repos\curso-c-sharp\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp2.0\Encapsulamento.AssemblyInfoInputs.cache
+C:\Users\Eduarda\Source\Repos\curso-c-sharp\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp2.0\Encapsulamento.AssemblyInfo.cs
+C:\Users\Eduarda\Source\Repos\curso-c-sharp\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp2.0\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\Eduarda\Source\Repos\curso-c-sharp\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp2.0\Encapsulamento.dll
+C:\Users\Eduarda\Source\Repos\curso-c-sharp\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp2.0\Encapsulamento.pdb

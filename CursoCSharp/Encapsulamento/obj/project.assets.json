@@ -664,24 +664,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cod3r\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Eduarda\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cod3r\\source\\repos\\CursoCSharp\\Encapsulamento\\Encapsulamento.csproj",
+      "projectUniqueName": "C:\\Users\\Eduarda\\Source\\Repos\\curso-c-sharp\\CursoCSharp\\Encapsulamento\\Encapsulamento.csproj",
       "projectName": "Encapsulamento",
-      "projectPath": "C:\\Users\\Cod3r\\source\\repos\\CursoCSharp\\Encapsulamento\\Encapsulamento.csproj",
-      "packagesPath": "C:\\Users\\Cod3r\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cod3r\\source\\repos\\CursoCSharp\\Encapsulamento\\obj\\",
+      "projectPath": "C:\\Users\\Eduarda\\Source\\Repos\\curso-c-sharp\\CursoCSharp\\Encapsulamento\\Encapsulamento.csproj",
+      "packagesPath": "C:\\Users\\Eduarda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eduarda\\Source\\Repos\\curso-c-sharp\\CursoCSharp\\Encapsulamento\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cod3r\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Eduarda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -692,6 +693,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
           "projectReferences": {}
         }
       },
@@ -703,6 +705,7 @@
     },
     "frameworks": {
       "netcoreapp2.0": {
+        "targetAlias": "netcoreapp2.0",
         "dependencies": {
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
@@ -712,10 +715,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
