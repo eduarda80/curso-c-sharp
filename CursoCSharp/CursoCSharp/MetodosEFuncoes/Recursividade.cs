@@ -9,11 +9,11 @@ namespace CursoCSharp.MetodosEFuncoes
     {
         public static void Executar()
         {
-            void ExcluirPasta(int numeroArquivo)
+            void ExcluirPasta(int numeroArquivo) // fazer um foreach para pegar todos os arquivos da pasta
             {
                 string arquivos = @"C:\Arquivos\arq1" + numeroArquivo + ".txt";
                 bool result = File.Exists(arquivos);
-
+          
                 if (result == true)
                 {
                     using (StreamReader arquivo = File.OpenText(arquivos))
