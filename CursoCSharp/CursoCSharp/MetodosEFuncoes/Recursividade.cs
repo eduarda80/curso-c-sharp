@@ -7,12 +7,13 @@ using CursoCSharp.Api;
 namespace CursoCSharp.MetodosEFuncoes
 {
     public sealed class Recursividade
-    {    
+    {
         public static void Executar()
         {
             var dirPasta = @"C:\Nome da pasta".ParseHome();
 
             var dirInfo = new DirectoryInfo(dirPasta);
+        }
 
         public void ExcluirDiretorio(string path)
         {
@@ -64,8 +65,5 @@ namespace CursoCSharp.MetodosEFuncoes
             Jazz
                      
          */
-
-
-
     }
 }
