@@ -2,44 +2,70 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using CursoCSharp.Api;
 
 namespace CursoCSharp.MetodosEFuncoes
 {
     public sealed class Recursividade
-    {
+    {    
         public static void Executar()
         {
-            void ExcluirPasta(int numeroArquivo) // fazer um foreach para pegar todos os arquivos da pasta
-            {
-                string arquivos = @"C:\Arquivos\arq1" + numeroArquivo + ".txt";
-                bool result = File.Exists(arquivos);
-          
-                if (result == true)
-                {
-                    using (StreamReader arquivo = File.OpenText(arquivos))
-                    {
-                        string linha;
-                        while ((linha = arquivo.ReadLine()) != null)
-                        {
-                            Console.WriteLine("Arquivo encontrado");
-                            File.Delete(arquivos);
-                            Console.WriteLine("Arquivo excluído com sucesso");
-                        }
-                    }
-                }
+            var dirPasta = @"C:\Nome da pasta".ParseHome();
 
-                string arquivo2 = @"C:\Arquivos\Arq2" + numeroArquivo + ".txt";
-                if (File.Exists(arquivo2))
-                {
-                    ExcluirPasta(numeroArquivo + 1);
-                }
+            var dirInfo = new DirectoryInfo(dirPasta);
 
-                string arquivo3 = @"C:\Arquivos\Arq3" + numeroArquivo + ".txt";
-                if (File.Exists(arquivo3))
-                {
-                    ExcluirPasta(numeroArquivo + 1);
-                }
-            }
+        public void ExcluirDiretorio(string path)
+        {
+            if (!Directory.Exists(path))
+                return;
+
+            var info = new DirectoryInfo(path);
+            
+            //files: Arquivos (NÃO PASTAS, SOMENTE ARQUIVOS) do meu diretório
+            var files = info.GetFiles();
+
+            //Exclui arquivo-a-arquivo do meu diretório.
+            foreach (var file in files)
+                file.Delete();
+
+            //directories: As pastas (NÃO ARQUVIOS, SOMENTE PASTAS) do meu diretório.
+            var directories = info.GetDirectories();
+
+            foreach (var directory in directories)
+                ExcluirDiretorio(directory.FullName);
+
+            info.Delete();
         }
+
+        /*
+         Musicas
+            -Musica 0
+            -Rock    
+                -Musica 1
+                -Musica 2
+                -Musica 3
+                -Metal
+                    -Musica 4
+                    -Musica 5
+                    -Musica 6
+                -Romantico
+                   - Musica 7
+                    -Musica 8
+            Pop
+                MusicaX
+                ...
+
+                MIchael
+                    ...
+                Maddona
+                    ...
+                Adele
+                    ...
+            Jazz
+                     
+         */
+
+
+
     }
 }
