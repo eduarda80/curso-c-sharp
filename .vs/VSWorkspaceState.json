@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CursoCSharp",
+    "\\CursoCSharp\\CursoCSharp",
+    "\\CursoCSharp\\CursoCSharp\\MetodosEFuncoes"
   ],
+  "SelectedNode": "\\CursoCSharp\\CursoCSharp.sln",
   "PreviewInSolutionExplorer": false
 }
