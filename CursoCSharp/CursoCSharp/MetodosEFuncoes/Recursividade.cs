@@ -33,12 +33,10 @@ namespace CursoCSharp.MetodosEFuncoes
 
         public static void Executar()
         {
-           string path = @"C:\Arquivoxml - Copia";
+            string path = @"C:\Arquivoxml - Copia"; //Coloca o caminho da pasta!
 
-            if (Directory.Exists(path))
-            {
-                ExcluirDiretorio(path);
-            }
+            ExcluirDiretorio(path); // Entra na função excluir diretorio
+
         }
     }
 }
