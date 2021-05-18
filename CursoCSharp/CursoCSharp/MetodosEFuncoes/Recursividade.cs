@@ -6,9 +6,9 @@ using CursoCSharp.Api;
 
 namespace CursoCSharp.MetodosEFuncoes
 {
-    public sealed class Recursividade
+    public class Recursividade
     {
-        public void ExcluirDiretorio(string path)
+        public static void ExcluirDiretorio(string path)
         {
             if (!Directory.Exists(path))
                 return;
@@ -33,16 +33,12 @@ namespace CursoCSharp.MetodosEFuncoes
 
         public static void Executar()
         {
-           //string path = @"C:\temp\xmls";
+           string path = @"C:\Arquivoxml - Copia";
 
-           // if (!Path.GetFileName(path))
-           // {
-               
-           // }
-  
-           // ExcluirDiretorio(path);
-
-
+            if (Directory.Exists(path))
+            {
+                ExcluirDiretorio(path);
+            }
         }
     }
 }
